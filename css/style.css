@@ -313,13 +313,41 @@
 .bg-breadcrumb {
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url(../img/carousel-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 60px 0 60px 0;
     transition: 0.5s;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../img/carousel-1.jpg);
+}
+
+.bg1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../img/carousel-3.jpg);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.bg2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../img/carousel-4.jpg);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.bg3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../img/carousel-5.jpg);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.bg4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../img/carousel-6.jpg);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
 
 .bg-breadcrumb .breadcrumb {
@@ -361,7 +389,7 @@
 .service {
     position: relative;
     overflow: hidden;
-    background-image: url(../img/carousel-4.jpg);
+    background-image: url(../img/carousel-3.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -765,7 +793,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(../img/carousel-5.jpg);
+    background-image: url(../img/carousel-4.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
