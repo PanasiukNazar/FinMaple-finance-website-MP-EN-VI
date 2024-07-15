@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>FinMaple</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+        <!-- Cookie banner -->
+        <link rel="stylesheet" href="cookie/on-cookies.css" />
+        <script type="module" src="cookie/on-cookies.js" defer></script>
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid nav-bar sticky-top px-4 py-2 py-lg-0">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="display-6 text-dark">
+                        <i class="fas fa-swimmer text-primary me-3"></i>FinMaple
+                    </h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active"
+                            >Home</a
+                        >
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link"
+                            >Service</a
+                        >
+                        <a href="testimonial.html" class="nav-item nav-link"
+                            >Testimonial</a
+                        >
+                        <a href="contact.html" class="nav-item nav-link"
+                            >Contact</a
+                        >
+                    </div>
+                    <a
+                        href="contact.html"
+                        class="btn btn-primary rounded-pill py-2 px-4 flex-shrink-0"
+                        >Contact us</a
+                    >
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Carousel Start -->
+        <div class="header-carousel owl-carousel">
+            <div class="header-carousel-item">
+                <img
+                    src="img/carousel-1.jpg"
+                    class="img-fluid w-100"
+                    alt="Image"
+                />
+                <div class="carousel-caption">
+                    <div class="container align-items-center py-4">
+                        <div class="row g-5 align-items-center">
+                            <div
+                                class="col-xl-7 fadeInLeft animated"
+                                data-animation="fadeInLeft"
+                                data-delay="1s"
+                                style="animation-delay: 1s"
+                            >
+                                <div class="text-start">
+                                    <h4
+                                        class="text-primary text-uppercase fw-bold mb-4"
+                                    >
+                                        Welcome To WaterLand
+                                    </h4>
+                                    <h1
+                                        class="display-4 text-uppercase text-white mb-4"
+                                    >
+                                        The Biggest Theme & Amusement Park
+                                    </h1>
+                                    <p class="mb-4 fs-5">
+                                        Lorem Ipsum is simply dummy text of the
+                                        printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard
+                                        dummy...
+                                    </p>
+                                    <div class="d-flex flex-shrink-0">
+                                        <a
+                                            class="btn btn-primary rounded-pill text-white py-3 px-5"
+                                            href="#"
+                                            >Our Packages</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-carousel-item">
+                <img
+                    src="img/carousel-2.jpg"
+                    class="img-fluid w-100"
+                    alt="Image"
+                />
+                <div class="carousel-caption">
+                    <div class="container py-4">
+                        <div class="row g-5 align-items-center">
+                            <div
+                                class="col-xl-7 fadeInLeft animated"
+                                data-animation="fadeInLeft"
+                                data-delay="1s"
+                                style="animation-delay: 1s"
+                            >
+                                <div class="text-start">
+                                    <h4
+                                        class="text-primary text-uppercase fw-bold mb-4"
+                                    >
+                                        Unlock Your Potential
+                                    </h4>
+                                    <h1
+                                        class="display-4 text-uppercase text-white mb-4"
+                                    >
+                                        Financial Growth Strategies
+                                    </h1>
+                                    <p class="mb-4 fs-5">
+                                        Discover tailored financial growth
+                                        strategies that align with your unique
+                                        goals. Our expert consultants will guide
+                                        you through investment opportunities,
+                                        risk management, and wealth accumulation
+                                        techniques to ensure a prosperous
+                                        future.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Feature Start -->
+        <div class="container-fluid feature py-5">
+            <div class="container py-5">
+                <div class="row g-4">
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="feature-item">
+                            <img
+                                src="img/feature-1.jpg"
+                                class="img-fluid rounded w-100"
+                                alt="Image"
+                            />
+                            <div class="feature-content p-4">
+                                <div class="feature-content-inner">
+                                    <h4 class="text-white">
+                                        Tailored Solutions for Your Needs
+                                    </h4>
+                                    <p class="text-white">
+                                        We understand that each client has
+                                        unique financial goals. Our personalized
+                                        approach ensures that every strategy and
+                                        recommendation is crafted specifically
+                                        for your individual circumstances,
+                                        helping you achieve your financial
+                                        aspirations.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="feature-item">
+                            <img
+                                src="img/feature-2.jpg"
+                                class="img-fluid rounded w-100"
+                                alt="Image"
+                            />
+                            <div class="feature-content p-4">
+                                <div class="feature-content-inner">
+                                    <h4 class="text-white">
+                                        Decades of Combined Experience
+                                    </h4>
+                                    <p class="text-white">
+                                        Our team of seasoned professionals
+                                        brings decades of combined experience in
+                                        the financial sector. With deep industry
+                                        knowledge and a commitment to
+                                        excellence, we provide expert guidance
+                                        to navigate even the most complex
+                                        financial landscapes.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="feature-item">
+                            <img
+                                src="img/feature-3.jpg"
+                                class="img-fluid rounded w-100"
+                                alt="Image"
+                            />
+                            <div class="feature-content p-4">
+                                <div class="feature-content-inner">
+                                    <h4 class="text-white">
+                                        Clear and Honest Communication
+                                    </h4>
+                                    <p class="text-white">
+                                        Transparency is at the heart of our
+                                        services. We believe in clear, honest
+                                        communication, ensuring you fully
+                                        understand your financial options and
+                                        the steps we take together. Trust and
+                                        integrity guide all our interactions,
+                                        providing you with peace of mind.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+        <!-- About Start -->
+        <div class="container-fluid about pb-5">
+            <div class="container pb-5">
+                <div class="row g-5">
+                    <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div>
+                            <h4 class="text-primary">Our Approach</h4>
+                            <h1 class="display-5 mb-4">
+                                Comprehensive Financial Consultation
+                            </h1>
+                            <p class="mb-5">
+                                At the core of our services is a commitment to
+                                providing comprehensive financial consultations
+                                tailored to your unique needs. Our approach
+                                begins with a thorough understanding of your
+                                current financial situation, future goals, and
+                                risk tolerance. We conduct an in-depth analysis
+                                to identify opportunities and challenges,
+                                crafting a personalized strategy that aligns
+                                with your objectives. Our process is
+                                collaborative and transparent. We believe in
+                                open communication and involving you in every
+                                step of the journey. From initial assessment to
+                                implementation and ongoing monitoring, we ensure
+                                you are informed and confident in the decisions
+                                being made.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="position-relative rounded">
+                            <div class="rounded" style="margin-top: 40px">
+                                <div class="row g-0">
+                                    <div class="col-lg-12">
+                                        <div class="rounded mb-4">
+                                            <img
+                                                src="img/approach.jpg"
+                                                class="img-fluid rounded w-100"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Ticket Packages Start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div
+                        class="col-lg-12 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.2s"
+                    >
+                        <div class="packages-item h-100">
+                            <h4 class="text-primary">
+                                Empowering Your Financial Journey
+                            </h4>
+                            <h1 class="display-5 mb-4">
+                                Cutting-Edge Solutions for Your Financial
+                                Success
+                            </h1>
+                            <p class="mb-4">
+                                Our features are designed to provide you with
+                                the tools and insights necessary for a
+                                successful financial journey. We combine
+                                innovative technology, expert advice, and
+                                personalized service to ensure you have
+                                everything you need to achieve your financial
+                                goals. Our commitment to excellence drives us to
+                                continuously enhance our offerings, providing
+                                you with a seamless and effective consultation
+                                experience. Our approach includes a variety of
+                                features aimed at maximizing your financial
+                                potential. From detailed financial analysis and
+                                customized planning to ongoing support and
+                                education, we are dedicated to your success. We
+                                leverage the latest advancements in financial
+                                technology to provide you with accurate,
+                                up-to-date information and strategies that are
+                                tailored to your unique situation. Our team of
+                                experienced consultants is always available to
+                                guide you through every step, offering clarity
+                                and confidence in your financial decisions.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.4s"
+                    >
+                        <div
+                            class="pricing-item bg-dark rounded text-center p-5 h-100"
+                        >
+                            <div class="pb-4">
+                                <h2
+                                    class="mb-4 pb-4 text-primary border-bottom"
+                                >
+                                    Innovative Technology at Your Fingertips
+                                </h2>
+                                <p class="mb-4">
+                                    Utilize our state-of-the-art financial tools
+                                    to gain deeper insights into your financial
+                                    health. Our advanced software provides
+                                    real-time data, comprehensive analysis, and
+                                    personalized recommendations, ensuring you
+                                    have all the information needed to make
+                                    informed decisions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.6s"
+                    >
+                        <div
+                            class="pricing-item bg-primary rounded text-center p-5 h-100"
+                        >
+                            <div class="pb-4">
+                                <h2 class="text-dark mb-4 pb-4 border-bottom">
+                                    Professional Support Every Step of the Way
+                                </h2>
+                                <p class="text-white mb-4">
+                                    Benefit from the expertise of our seasoned
+                                    consultants who are dedicated to your
+                                    financial success. Our team offers ongoing
+                                    support and personalized advice, helping you
+                                    navigate complex financial landscapes with
+                                    confidence and ease.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Ticket Packages End -->
+
+        <!-- Attractions Start -->
+        <div class="container-fluid attractions py-5">
+            <div class="container attractions-section py-5">
+                <div
+                    class="text-center mx-auto pb-5 wow fadeInUp"
+                    data-wow-delay="0.2s"
+                    style="max-width: 800px"
+                >
+                    <h4 class="text-primary">Showcasing Our Expertise</h4>
+                    <h1 class="display-5 text-white mb-4">
+                        Diverse Financial Solutions for Varied Needs
+                    </h1>
+                    <p class="text-white mb-0">
+                        Our projects highlight the breadth and depth of our
+                        expertise in financial consultations. We take pride in
+                        our ability to deliver tailored solutions that meet the
+                        unique needs of each client. Our portfolio spans a wide
+                        range of financial services, demonstrating our
+                        versatility and commitment to excellence. Each project
+                        reflects our meticulous approach, innovative thinking,
+                        and unwavering dedication to client success. We have
+                        successfully assisted clients from various sectors,
+                        providing comprehensive financial planning, risk
+                        management, investment strategies, and more. Our
+                        projects are a testament to our ability to adapt to
+                        changing market conditions, regulatory environments, and
+                        individual client requirements. We work closely with our
+                        clients to understand their goals and develop customized
+                        strategies that drive sustainable growth and financial
+                        stability. Explore our featured projects to see how we
+                        have helped clients achieve their financial objectives
+                        through strategic planning, expert advice, and
+                        cutting-edge financial tools.
+                    </p>
+                </div>
+                <div
+                    class="owl-carousel attractions-carousel wow fadeInUp"
+                    data-wow-delay="0.1s"
+                >
+                    <div
+                        class="attractions-item wow fadeInUp"
+                        data-wow-delay="0.2s"
+                    >
+                        <img
+                            src="img/attraction-1.jpg"
+                            class="img-fluid rounded w-100"
+                            alt=""
+                        />
+                        <a href="#" class="attractions-name"
+                            >Retirement Planning Success</a
+                        >
+                    </div>
+                    <div
+                        class="attractions-item wow fadeInUp"
+                        data-wow-delay="0.4s"
+                    >
+                        <img
+                            src="img/attraction-2.jpg"
+                            class="img-fluid rounded w-100"
+                            alt=""
+                        />
+                        <a href="#" class="attractions-name"
+                            >Investment Portfolio Optimization</a
+                        >
+                    </div>
+                    <div
+                        class="attractions-item wow fadeInUp"
+                        data-wow-delay="0.6s"
+                    >
+                        <img
+                            src="img/attraction-3.jpg"
+                            class="img-fluid rounded w-100"
+                            alt=""
+                        />
+                        <a href="#" class="attractions-name"
+                            >Small Business Financial Restructuring</a
+                        >
+                    </div>
+                    <div
+                        class="attractions-item wow fadeInUp"
+                        data-wow-delay="0.8s"
+                    >
+                        <img
+                            src="img/attraction-4.jpg"
+                            class="img-fluid rounded w-100"
+                            alt=""
+                        />
+                        <a href="#" class="attractions-name"
+                            >Tax Efficiency Planning</a
+                        >
+                    </div>
+                    <div
+                        class="attractions-item wow fadeInUp"
+                        data-wow-delay="1s"
+                    >
+                        <img
+                            src="img/attraction-5.jpg"
+                            class="img-fluid rounded w-100"
+                            alt=""
+                        />
+                        <a href="#" class="attractions-name"
+                            >Wealth Preservation Strategy</a
+                        >
+                    </div>
+                    <div
+                        class="attractions-item wow fadeInUp"
+                        data-wow-delay="1s"
+                    >
+                        <img
+                            src="img/attraction-6.jpg"
+                            class="img-fluid rounded w-100"
+                            alt=""
+                        />
+                        <a href="#" class="attractions-name"
+                            >Financial Risk Assessment</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Attractions End -->
+
+        <!-- Blog Start -->
+        <div class="container-fluid blog pb-5">
+            <div class="container pb-5">
+                <div
+                    class="text-center mx-auto pb-5 wow fadeInUp"
+                    data-wow-delay="0.2s"
+                    style="max-width: 800px"
+                >
+                    <h4 class="text-primary">Our Blog</h4>
+                    <h1 class="display-5 mb-4">
+                        Stay Informed with Expert Financial Advice
+                    </h1>
+                    <p class="mb-0">
+                        Our blog is your go-to resource for the latest insights,
+                        strategies, and trends in financial consulting. We are
+                        committed to providing you with valuable content that
+                        helps you stay informed and make educated financial
+                        decisions. Whether you are looking for tips on personal
+                        finance, investment strategies, or updates on market
+                        trends, our blog covers it all. Our expert contributors
+                        share their knowledge and experience to help you
+                        navigate the complexities of the financial world with
+                        confidence. Explore our latest posts to gain a deeper
+                        understanding of various financial topics. From
+                        comprehensive guides and how-tos to in-depth analysis
+                        and expert opinions, our blog is designed to equip you
+                        with the knowledge you need to achieve your financial
+                        goals. We believe that informed clients make the best
+                        decisions, and our blog is here to ensure you are always
+                        in the know.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <a href="#">
+                                    <img
+                                        src="img/blog-1.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Image"
+                                    />
+                                </a>
+                                <div class="blog-date">
+                                    <i class="fas fa-clock me-2"></i>August 19,
+                                    2024
+                                </div>
+                            </div>
+                            <div class="blog-content p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">
+                                    Strategies to Protect Your Investments</a
+                                >
+                                <p class="mb-4">
+                                    Learn how to manage your investments during
+                                    periods of market volatility. This post
+                                    offers practical advice on risk management,
+                                    diversification, and maintaining a long-term
+                                    perspective to safeguard your portfolio.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <a href="#">
+                                    <img
+                                        src="img/blog-2.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Image"
+                                    />
+                                </a>
+                                <div class="blog-date">
+                                    <i class="fas fa-clock me-2"></i>May 23,
+                                    2024
+                                </div>
+                            </div>
+                            <div class="blog-content p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">
+                                    Securing a Comfortable Future</a
+                                >
+                                <p class="mb-4">
+                                    Discover essential tips for retirement
+                                    planning, including how to estimate your
+                                    retirement needs, choose the right savings
+                                    accounts, and create a sustainable
+                                    withdrawal strategy to ensure a comfortable
+                                    retirement.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <a href="#">
+                                    <img
+                                        src="img/blog-3.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Image"
+                                    />
+                                </a>
+                                <div class="blog-date">
+                                    <i class="fas fa-clock me-2"></i>June 19,
+                                    2024
+                                </div>
+                            </div>
+                            <div class="blog-content p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">
+                                    Maximizing Your Refund</a
+                                >
+                                <p class="mb-4">
+                                    Explore effective tax-saving strategies that
+                                    can help you minimize your tax liabilities
+                                    and maximize your refund. This article
+                                    covers deductions, credits, and other
+                                    techniques to optimize your tax return.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid footer py-5 wow fadeIn"
+            data-wow-delay="0.2s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item">
+                            <a href="index.html" class="p-0">
+                                <h4 class="text-white mb-4">FinMaple</h4>
+                            </a>
+                            <p class="mb-2">
+                                Stay connected with us for the latest updates
+                                and insights in the world of financial
+                                consulting. Our team is dedicated to providing
+                                you with expert advice, personalized solutions,
+                                and innovative strategies to help you achieve
+                                your financial goals.
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <i
+                                    class="fas fa-map-marker-alt text-primary me-3"
+                                ></i>
+                                <p class="text-white mb-0">
+                                    2833 16th Ave, Markham, ON L3R 0P8, Canada
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i
+                                    class="fas fa-envelope text-primary me-3"
+                                ></i>
+                                <p class="text-white mb-0">
+                                    fin_maple@gmail.com
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i
+                                    class="fa fa-phone-alt text-primary me-3"
+                                ></i>
+                                <p class="text-white mb-0">+14169933442</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Quick Links</h4>
+                            <a href="index.html"
+                                ><i class="fas fa-angle-right me-2"></i> Home</a
+                            >
+                            <a href="about.html"
+                                ><i class="fas fa-angle-right me-2"></i> About
+                                us</a
+                            >
+                            <a href="contact.html"
+                                ><i class="fas fa-angle-right me-2"></i> Contact
+                                us</a
+                            >
+                            <a href="terms-of-use.html"
+                                ><i class="fas fa-angle-right me-2"></i>Terms of
+                                use</a
+                            >
+                            <a href="privacy-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i> Privacy
+                                Policy</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-5">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Opening Hours</h4>
+                            <div class="opening-date mb-3 pb-3">
+                                <div class="opening-clock flex-shrink-0">
+                                    <h6 class="text-white mb-0 me-auto">
+                                        Monday - Friday:
+                                    </h6>
+                                    <p class="mb-0">
+                                        <i
+                                            class="fas fa-clock text-primary me-2"
+                                        ></i>
+                                        11:00 AM - 16:00 PM
+                                    </p>
+                                </div>
+                                <div class="opening-clock flex-shrink-0">
+                                    <h6 class="text-white mb-0 me-auto">
+                                        Satur - Sunday:
+                                    </h6>
+                                    <p class="mb-0">
+                                        <i
+                                            class="fas fa-clock text-primary me-2"
+                                        ></i>
+                                        09:00 AM - 17:00 PM
+                                    </p>
+                                </div>
+                                <div class="opening-clock flex-shrink-0">
+                                    <h6 class="text-white mb-0 me-auto">
+                                        Holiday:
+                                    </h6>
+                                    <p class="mb-0">
+                                        <i
+                                            class="fas fa-clock text-primary me-2"
+                                        ></i>
+                                        09:00 AM - 17:00 PM
+                                    </p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="text-white mb-2">Payment Accepted</p>
+                                <img
+                                    src="img/payment.png"
+                                    class="img-fluid"
+                                    alt="Image"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-primary btn-lg-square rounded-circle back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
