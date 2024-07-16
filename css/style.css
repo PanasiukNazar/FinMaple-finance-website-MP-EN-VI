@@ -204,6 +204,13 @@
     }
 }
 
+@media (max-width: 772px) {
+    .header-carousel .header-carousel-item,
+    .header-carousel .header-carousel-item img {
+        height: 700px;
+    }
+}
+
 .header-carousel .owl-nav .owl-prev {
     display: none;
 }
@@ -364,6 +371,15 @@
     position: relative;
     border-radius: 10px;
     background: var(--bs-light);
+}
+
+@media (max-width: 772px) {
+    .feature .feature-item p {
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
 }
 
 .feature-item .feature-content {
